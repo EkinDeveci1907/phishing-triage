@@ -1,0 +1,32 @@
+Return-Path: <bounce@mailer-x.top>
+Received: from mailer-x.top (mailer-x.top [198.51.100.66]) by mx.dal.ca; Thu,
+ 19 Nov 2026 08:59:58 -0400
+From: Canada Post <notice@canadapost-delivery.info>
+To: you@dal.ca
+Subject: Your parcel is on hold
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic:
+ SYNTHETIC / MOCK - made for phishing-triage tests. Not a real email.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============9167367835578973416=="
+
+--===============9167367835578973416==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+[SYNTHETIC / MOCK sample email - not a real message]
+
+Final notice: pay the $2.99 redelivery fee within 24 hours or your parcel goe=
+s back.
+
+--===============9167367835578973416==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p><i>[SYNTHETIC / MOCK sample email - not a real message]</i></p>
+<p>Final notice: pay the $2.99 redelivery fee within 24 hours or your parcel =
+goes back.</p><p><a href=3D"https://bit.ly/3xYzAb1">Pay now</a></p>
+
+--===============9167367835578973416==--

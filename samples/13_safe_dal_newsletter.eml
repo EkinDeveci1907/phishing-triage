@@ -1,0 +1,33 @@
+Return-Path: <bounce-2291@mail.newsletterhub.com>
+Received: from mail.newsletterhub.com (mail.newsletterhub.com [192.0.2.201])
+ by mx.dal.ca; Thu, 19 Nov 2026 08:59:58 -0400
+Authentication-Results: mx.dal.ca; spf=pass smtp.mailfrom=dal.ca; dkim=pass
+ header.d=dal.ca; dmarc=pass header.from=dal.ca
+From: Dalhousie News <news@dal.ca>
+To: you@dal.ca
+Subject: This week at Dal
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic:
+ SYNTHETIC / MOCK - made for phishing-triage tests. Not a real email.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============6890685755543690399=="
+
+--===============6890685755543690399==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+[SYNTHETIC / MOCK sample email - not a real message]
+
+Exam schedule, library hours and winter events.
+
+--===============6890685755543690399==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p><i>[SYNTHETIC / MOCK sample email - not a real message]</i></p>
+<p>Exam schedule, library hours and winter events.</p><p><a href=3D"https://w=
+ww.dal.ca/news.html">Read more</a></p>
+
+--===============6890685755543690399==--

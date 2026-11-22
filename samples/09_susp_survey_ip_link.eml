@@ -1,0 +1,19 @@
+Received: from mail.studentvoice-research.com (mail.studentvoice-research.com
+ [203.0.113.80]) by mx.dal.ca; Thu, 19 Nov 2026 08:59:58 -0400
+Authentication-Results: mx.dal.ca; spf=pass
+ smtp.mailfrom=studentvoice-research.com; dkim=fail
+ header.d=studentvoice-research.com; dmarc=none
+ header.from=studentvoice-research.com
+From: Campus Survey Team <survey@studentvoice-research.com>
+To: you@dal.ca
+Subject: Win a $50 gift card: 5-minute student survey
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic:
+ SYNTHETIC / MOCK - made for phishing-triage tests. Not a real email.
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+MIME-Version: 1.0
+
+[SYNTHETIC / MOCK sample email - not a real message]
+
+Tell us about campus life. Take the survey: http://203.0.113.80/survey

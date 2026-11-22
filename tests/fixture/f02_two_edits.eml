@@ -1,0 +1,10 @@
+Authentication-Results: mx.dal.ca; spf=pass smtp.mailfrom=amazing.com; dkim=pass header.d=amazing.com; dmarc=pass header.from=amazing.com
+From: Amazing Deals <deals@amazing.com>
+To: you@dal.ca
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic: SYNTHETIC / MOCK test fixture, written by hand for tests/test_triage.py
+MIME-Version: 1.0
+Subject: This week's deals
+Content-Type: text/plain; charset="utf-8"
+
+Expect: nothing (amazing is 2 edits from amazon) -> 0, Likely safe.

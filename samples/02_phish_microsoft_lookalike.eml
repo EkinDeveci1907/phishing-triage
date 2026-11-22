@@ -1,0 +1,34 @@
+Received: from smtp.micros0ft.com (smtp.micros0ft.com [203.0.113.17]) by
+ mx.dal.ca; Thu, 19 Nov 2026 08:59:58 -0400
+Authentication-Results: mx.dal.ca; spf=fail smtp.mailfrom=micros0ft.com;
+ dkim=none header.d=micros0ft.com; dmarc=fail header.from=micros0ft.com
+From: Microsoft 365 <no-reply@micros0ft.com>
+To: you@dal.ca
+Subject: Unusual sign-in activity
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic:
+ SYNTHETIC / MOCK - made for phishing-triage tests. Not a real email.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============2664994520876268852=="
+
+--===============2664994520876268852==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+[SYNTHETIC / MOCK sample email - not a real message]
+
+We noticed unusual sign-in activity. Review it today or your account will be =
+suspended.
+
+--===============2664994520876268852==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p><i>[SYNTHETIC / MOCK sample email - not a real message]</i></p>
+<p>We noticed unusual sign-in activity. Review it today or your account will =
+be suspended.</p><p><a href=3D"https://login.micros0ft.com/review">Review act=
+ivity</a></p>
+
+--===============2664994520876268852==--

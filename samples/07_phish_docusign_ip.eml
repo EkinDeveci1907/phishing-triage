@@ -1,0 +1,30 @@
+Received: from docusign-envelopes.net (docusign-envelopes.net [198.51.100.24])
+ by mx.dal.ca; Thu, 19 Nov 2026 08:59:58 -0400
+From: DocuSign <dse@docusign-envelopes.net>
+To: you@dal.ca
+Subject: A document is waiting for your signature
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic:
+ SYNTHETIC / MOCK - made for phishing-triage tests. Not a real email.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============7030930092996681901=="
+
+--===============7030930092996681901==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+[SYNTHETIC / MOCK sample email - not a real message]
+
+You have a document to sign. The link expires in 24 hours.
+
+--===============7030930092996681901==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p><i>[SYNTHETIC / MOCK sample email - not a real message]</i></p>
+<p>You have a document to sign. The link expires in 24 hours.</p><p><a href=
+=3D"http://198.51.100.24/docs/view">https://www.docusign.net/review</a></p>
+
+--===============7030930092996681901==--

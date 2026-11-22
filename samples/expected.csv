@@ -1,0 +1,22 @@
+# SYNTHETIC / MOCK - the answer key for the sample emails
+file,expected_verdict,planted,note
+01_phish_it_helpdesk.eml,Phishing,display_brand;link_brand_other;link_text_mismatch;urgency_many,Fake IT helpdesk on Gmail; sender checks pass because Gmail is real
+02_phish_microsoft_lookalike.eml,Phishing,display_brand;lookalike_sender;link_lookalike;dmarc_fail;urgency_many,micros0ft.com: a zero in place of the letter o
+03_phish_canada_post_fee.eml,Phishing,display_brand;brand_in_sender_domain;shortener;no_auth;return_path;urgency_many,Parcel fee scam from canadapost-delivery.info
+04_phish_invoice_zip.eml,Phishing,reply_to;spf_dkim_fail;urgency_many;zip_program,Zip holding Invoice_8841.pdf.exe; replies go to a ProtonMail address
+05_phish_salary_macro.eml,Phishing,reply_to;dmarc_fail;urgency_one;attach_macro,Macro-enabled Word file pretending to be a salary review
+06_phish_paypal_punycode.eml,Phishing,display_brand;lookalike_sender;link_lookalike;punycode;urgency_many,xn--pypal-4ve.com shows as paypal.com with a Cyrillic a; its sender checks pass
+07_phish_docusign_ip.eml,Phishing,display_brand;brand_in_sender_domain;link_text_mismatch;ip_link;no_auth;urgency_one,Link text shows docusign.net but goes to a bare IP address
+08_susp_gift_cards.eml,Suspicious,display_role_freemail;urgency_many,Gift-card request from a 'Dean' on Outlook.com; no links or attachments to catch
+09_susp_survey_ip_link.eml,Suspicious,ip_link;spf_dkim_fail,Exactly 30 points: the Suspicious boundary
+10_susp_shared_file_shortener.eml,Suspicious,reply_to;shortener;urgency_one,"Real-looking vendor, but replies go to Gmail and the link is shortened"
+11_susp_newsletter_no_auth.eml,Suspicious,no_auth;return_path;shortener,"Probably a harmless newsletter, but nothing proves who sent it"
+12_susp_amazon_lookalike_link.eml,Suspicious,link_lookalike,One strong sign on its own: amazom.ca is one letter off amazon.ca
+13_safe_dal_newsletter.eml,Likely safe,,"Near miss: bounces go to a mailing service, but DMARC passes for dal.ca"
+14_safe_github_password_reset.eml,Likely safe,urgency_one,Near miss: a reset you asked for says the link expires in 24 hours
+15_safe_canada_post_delivery.eml,Likely safe,,Near miss: canadapost-postescanada.ca looks made up but is Canada Post's real domain
+16_safe_it_maintenance.eml,Likely safe,urgency_many,"Near miss: urgent wording, but from the real dal.ca with every check passing"
+17_safe_microsoft_signin_alert.eml,Likely safe,urgency_one,Near miss: a real Microsoft security alert from accountprotection.microsoft.com
+18_safe_colleague_report.eml,Likely safe,,"Near miss: has a Reply-To, but it is the same address as From"
+19_safe_zoom_invite.eml,Likely safe,,"Calendar invite with an .ics file, from zoom.us"
+20_safe_amazon_shipped.eml,Likely safe,,Real Amazon domain in both sender and link

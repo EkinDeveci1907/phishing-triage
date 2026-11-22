@@ -1,0 +1,36 @@
+Received: from mail.accountprotection.microsoft.com
+ (mail.accountprotection.microsoft.com [192.0.2.44]) by mx.dal.ca; Thu, 19 Nov
+ 2026 08:59:58 -0400
+Authentication-Results: mx.dal.ca; spf=pass
+ smtp.mailfrom=accountprotection.microsoft.com; dkim=pass
+ header.d=accountprotection.microsoft.com; dmarc=pass
+ header.from=accountprotection.microsoft.com
+From: Microsoft account team
+ <account-security-noreply@accountprotection.microsoft.com>
+To: you@dal.ca
+Subject: Microsoft account security alert
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic:
+ SYNTHETIC / MOCK - made for phishing-triage tests. Not a real email.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============2951066778875539378=="
+
+--===============2951066778875539378==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+[SYNTHETIC / MOCK sample email - not a real message]
+
+We detected unusual sign-in activity on your Microsoft account.
+
+--===============2951066778875539378==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p><i>[SYNTHETIC / MOCK sample email - not a real message]</i></p>
+<p>We detected unusual sign-in activity on your Microsoft account.</p><p><a h=
+ref=3D"https://account.live.com/Activity">Review recent activity</a></p>
+
+--===============2951066778875539378==--

@@ -1,0 +1,32 @@
+Received: from mail.shopnorth.ca (mail.shopnorth.ca [192.0.2.170]) by
+ mx.dal.ca; Thu, 19 Nov 2026 08:59:58 -0400
+Authentication-Results: mx.dal.ca; spf=pass smtp.mailfrom=shopnorth.ca;
+ dkim=pass header.d=shopnorth.ca; dmarc=pass header.from=shopnorth.ca
+From: Order Updates <orders@shopnorth.ca>
+To: you@dal.ca
+Subject: Your order has shipped
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic:
+ SYNTHETIC / MOCK - made for phishing-triage tests. Not a real email.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1636077006176664141=="
+
+--===============1636077006176664141==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+[SYNTHETIC / MOCK sample email - not a real message]
+
+Your order has shipped. You can view it on Amazon.
+
+--===============1636077006176664141==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p><i>[SYNTHETIC / MOCK sample email - not a real message]</i></p>
+<p>Your order has shipped.</p><p><a href=3D"https://www.amazom.ca/orders">Vie=
+w order</a></p>
+
+--===============1636077006176664141==--

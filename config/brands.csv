@@ -1,0 +1,18 @@
+# Well-known names that phishing emails pretend to be, and their real domains.
+# keywords: words that mean "this is that brand" in a sender name or domain
+# domains:  the brand's real domains. Mail and links from these are not lookalikes.
+brand,keywords,domains
+Microsoft,microsoft;office 365;microsoft 365,microsoft.com;microsoftonline.com;office.com;live.com
+PayPal,paypal,paypal.com
+Canada Post,canada post;canadapost,canadapost-postescanada.ca;canadapost.ca
+DocuSign,docusign,docusign.com;docusign.net
+Dalhousie University,dalhousie,dal.ca
+Amazon,amazon,amazon.com;amazon.ca
+Apple,apple;icloud,apple.com;icloud.com
+Google,google,google.com
+GitHub,github,github.com
+Interac,interac,interac.ca
+RBC,rbc;royal bank,rbc.com;royalbank.com
+Netflix,netflix,netflix.com
+Zoom,zoom,zoom.us
+LinkedIn,linkedin,linkedin.com

@@ -1,0 +1,33 @@
+Received: from mx.xn--pypal-4ve.com (mx.xn--pypal-4ve.com [203.0.113.120]) by
+ mx.dal.ca; Thu, 19 Nov 2026 08:59:58 -0400
+Authentication-Results: mx.dal.ca; spf=pass smtp.mailfrom=xn--pypal-4ve.com;
+ dkim=pass header.d=xn--pypal-4ve.com; dmarc=pass
+ header.from=xn--pypal-4ve.com
+From: PayPal <service@xn--pypal-4ve.com>
+To: you@dal.ca
+Subject: Confirm your details
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic:
+ SYNTHETIC / MOCK - made for phishing-triage tests. Not a real email.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============8780950916089887004=="
+
+--===============8780950916089887004==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+[SYNTHETIC / MOCK sample email - not a real message]
+
+Please confirm your details. Until you do, your account will be limited.
+
+--===============8780950916089887004==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p><i>[SYNTHETIC / MOCK sample email - not a real message]</i></p>
+<p>Please confirm your details. Until you do, your account will be limited.</=
+p><p><a href=3D"https://xn--pypal-4ve.com/signin">Log in to PayPal</a></p>
+
+--===============8780950916089887004==--

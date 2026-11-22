@@ -1,0 +1,33 @@
+Received: from payroll-portal.net (payroll-portal.net [198.51.100.140]) by
+ mx.dal.ca; Thu, 19 Nov 2026 08:59:58 -0400
+Authentication-Results: mx.dal.ca; spf=fail smtp.mailfrom=payroll-portal.net;
+ dkim=fail header.d=payroll-portal.net; dmarc=fail
+ header.from=payroll-portal.net
+From: Human Resources <hr-notice@payroll-portal.net>
+Reply-To: hr.department.office@gmail.com
+To: you@dal.ca
+Subject: 2026 salary review - action required
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic:
+ SYNTHETIC / MOCK - made for phishing-triage tests. Not a real email.
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============7294328634535701667=="
+
+--===============7294328634535701667==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: 7bit
+
+[SYNTHETIC / MOCK sample email - not a real message]
+
+Your 2026 salary review is attached. Enable editing to see your new salary.
+
+--===============7294328634535701667==
+Content-Type: application/vnd.ms-word.document.macroEnabled.12
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Salary_Review_2026.docm"
+MIME-Version: 1.0
+
+U1lOVEhFVElDIHBsYWNlaG9sZGVyIGJ5dGVzIC0gbm90IGEgcmVhbCBwcm9ncmFtIG9yIGRvY3Vt
+ZW50Lg==
+
+--===============7294328634535701667==--

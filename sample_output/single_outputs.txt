@@ -1,0 +1,73 @@
+
+*** SYNTHETIC / MOCK email ***
+File:      01_phish_it_helpdesk.eml
+From:      Dalhousie IT Helpdesk <dal.it.helpdesk@gmail.com>
+Subject:   Your password expires today - verify now
+Received:  1 hop(s), first: from mail-sor-f41.google.com (mail-sor-f41.google.com [192.0.2.41])
+Links:     2   Attachments: none
+
+Verdict:   PHISHING   (score 95/100)
+Model:     0.98 chance of phishing (demo trained on synthetic mail; trust the score above)
+
+Why:
+  +30  A link goes to dalhousie-secure.ca, which uses the name Dalhousie University but is not Dalhousie University's real website.
+  +25  A link shows www.dal.ca but really goes to dalhousie-secure.ca.
+  +20  The sender's name says "Dalhousie IT Helpdesk", but the email came from dal.it.helpdesk@gmail.com, which is not a Dalhousie University address.
+  +20  It pushes you to act fast: "within 24 hours", "verify now", "account will be locked".
+
+What to tell the employee:
+  This email is very likely phishing (score 95/100). What gave it away: A link goes to
+  dalhousie-secure.ca, which uses the name Dalhousie University but is not Dalhousie
+  University's real website. A link shows www.dal.ca but really goes to
+  dalhousie-secure.ca. The sender's name says "Dalhousie IT Helpdesk", but the email came
+  from dal.it.helpdesk@gmail.com, which is not a Dalhousie University address. What to do:
+  report it with the Report Phishing button, or forward it to the IT security team, then
+  delete it. Do not click the links, open attachments, reply, or type your password
+  anywhere it sends you. If you already clicked or entered your password, change your
+  password on the real website and tell IT right away. You won't get in trouble for
+  reporting it.
+
+
+*** SYNTHETIC / MOCK email ***
+File:      08_susp_gift_cards.eml
+From:      Dr. Dana Whitfield, Dean of Science <d.whitfield.dean@outlook.com>
+Subject:   Quick favour
+Received:  1 hop(s), first: from mail-oln040092.outlook.com (mail-oln040092.outlook.com [192.0.2.92])
+Links:     0   Attachments: none
+
+Verdict:   SUSPICIOUS   (score 40/100)
+Model:     0.26 chance of phishing (demo trained on synthetic mail; trust the score above)
+
+Why:
+  +20  The sender calls themselves "Dr. Dana Whitfield, Dean of Science" but wrote from a personal outlook.com address. Real staff use their work email.
+  +20  It pushes you to act fast: "urgently", "right away".
+
+What to tell the employee:
+  Some things about this email are not right (score 40/100). What to check: The sender
+  calls themselves "Dr. Dana Whitfield, Dean of Science" but wrote from a personal
+  outlook.com address. Real staff use their work email. It pushes you to act fast:
+  "urgently", "right away". Before you do what it asks, contact the sender another way,
+  using a phone number or address you already know, not one from this email. Don't click
+  links, open attachments, or send money or gift cards until you have checked. If you
+  can't confirm it, report it.
+
+
+*** SYNTHETIC / MOCK email ***
+File:      16_safe_it_maintenance.eml
+From:      Dalhousie ITS <its@dal.ca>
+Subject:   Urgent: planned network outage tonight
+Received:  1 hop(s), first: from smtp.dal.ca (smtp.dal.ca [192.0.2.10])
+Links:     0   Attachments: none
+
+Verdict:   LIKELY SAFE   (score 20/100)
+Model:     0.17 chance of phishing (demo trained on synthetic mail; trust the score above)
+
+Why:
+  +20  It pushes you to act fast: "urgent", "immediately".
+
+What to tell the employee:
+  No strong warning signs in this email (score 20/100). One small thing to notice: It
+  pushes you to act fast: "urgent", "immediately". It's fine to act on it if you were
+  expecting it. If it ever asks for your password, payment, or something unusual, check
+  with the sender first, and report it if you're unsure.
+

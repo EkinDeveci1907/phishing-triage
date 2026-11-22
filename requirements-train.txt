@@ -1,0 +1,4 @@
+# Only needed to retrain the demo model with train_model.py.
+# Note: scikit-learn with numpy and scipy is about 270 MB in a venv, over this
+# project's 200 MB budget, which is why the triage tool does not need it.
+scikit-learn>=1.3

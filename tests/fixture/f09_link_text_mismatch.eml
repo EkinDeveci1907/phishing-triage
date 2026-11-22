@@ -1,0 +1,17 @@
+From: RBC Alerts <alerts@rbc-notices.top>
+To: you@dal.ca
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic: SYNTHETIC / MOCK test fixture, written by hand for tests/test_triage.py
+MIME-Version: 1.0
+Subject: Statement ready
+Content-Type: multipart/alternative; boundary="b1"
+
+--b1
+Content-Type: text/plain; charset="utf-8"
+
+Expect: link_text_mismatch + no_auth -> 35, Suspicious.
+--b1
+Content-Type: text/html; charset="utf-8"
+
+<p>Your statement is ready: <a href="http://rbc-secure-login.top/statement">www.rbc.com</a></p>
+--b1--

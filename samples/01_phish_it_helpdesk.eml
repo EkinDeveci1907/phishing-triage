@@ -1,0 +1,34 @@
+Received: from mail-sor-f41.google.com (mail-sor-f41.google.com [192.0.2.41])
+ by mx.dal.ca; Thu, 19 Nov 2026 08:59:58 -0400
+Authentication-Results: mx.dal.ca; spf=pass smtp.mailfrom=gmail.com; dkim=pass
+ header.d=gmail.com; dmarc=pass header.from=gmail.com
+From: Dalhousie IT Helpdesk <dal.it.helpdesk@gmail.com>
+To: you@dal.ca
+Subject: Your password expires today - verify now
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic:
+ SYNTHETIC / MOCK - made for phishing-triage tests. Not a real email.
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+ boundary="===============1869799096130093556=="
+
+--===============1869799096130093556==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+[SYNTHETIC / MOCK sample email - not a real message]
+
+Your Dalhousie password expires within 24 hours. Verify now or your account w=
+ill be locked: https://www.dal.ca/password
+
+--===============1869799096130093556==
+Content-Type: text/html; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+MIME-Version: 1.0
+
+<p><i>[SYNTHETIC / MOCK sample email - not a real message]</i></p>
+<p>Your Dalhousie password expires within 24 hours. Verify now or your accoun=
+t will be locked.</p><p><a href=3D"http://dalhousie-secure.ca/login">https://=
+www.dal.ca/password</a></p>
+
+--===============1869799096130093556==--

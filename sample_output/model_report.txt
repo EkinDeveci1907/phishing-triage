@@ -1,0 +1,31 @@
+SYNTHETIC / MOCK - demo model report
+Trained on 750 and tested on 250 made-up emails (3% of labels flipped on purpose).
+
+Logistic regression (demo model)  accuracy 0.892  precision 0.962  recall 0.813   (TP 100, FP 4, FN 23, TN 123)
+Rule score (Suspicious or worse)  accuracy 0.852  precision 0.816  recall 0.902   (TP 111, FP 25, FN 12, TN 102)
+
+These numbers only show how well each method fits mail this project invented.
+They are not a measure of how either would do on real phishing.
+
+Weights (feature: weight)
+  display_brand           +3.12
+  brand_in_sender_domain  +2.18
+  lookalike_sender        +1.67
+  dmarc_fail              +1.52
+  link_text_mismatch      +1.51
+  zip_program             +1.47
+  attach_macro            +1.30
+  reply_to                +1.29
+  urgency_one             +1.25
+  urgency_many            +1.18
+  shortener               +1.01
+  ip_link                 +1.00
+  link_brand_other        +0.98
+  punycode                +0.85
+  link_lookalike          +0.69
+  attach_program          +0.59
+  no_auth                 +0.56
+  display_role_freemail   +0.55
+  spf_dkim_fail           +0.53
+  return_path             +0.41
+  display_hidden_address  +0.00

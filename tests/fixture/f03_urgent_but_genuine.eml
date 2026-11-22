@@ -1,0 +1,11 @@
+Authentication-Results: mx.dal.ca; spf=pass smtp.mailfrom=dal.ca; dkim=pass header.d=dal.ca; dmarc=pass header.from=dal.ca
+From: Dalhousie ITS <its@dal.ca>
+To: you@dal.ca
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic: SYNTHETIC / MOCK test fixture, written by hand for tests/test_triage.py
+MIME-Version: 1.0
+Subject: Urgent: your password expires Friday
+Content-Type: text/plain; charset="utf-8"
+
+Change it immediately through the usual Dal portal.
+Expect: urgency_many only -> 20, Likely safe.

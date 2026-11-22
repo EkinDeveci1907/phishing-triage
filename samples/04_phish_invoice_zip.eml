@@ -1,0 +1,36 @@
+Received: from mail.northwind-billing.biz (mail.northwind-billing.biz
+ [203.0.113.88]) by mx.dal.ca; Thu, 19 Nov 2026 08:59:58 -0400
+Authentication-Results: mx.dal.ca; spf=softfail
+ smtp.mailfrom=northwind-billing.biz; dkim=none
+ header.d=northwind-billing.biz; dmarc=none header.from=northwind-billing.biz
+From: Accounts Payable <ap@northwind-billing.biz>
+Reply-To: payments.northwind@proton.me
+To: you@dal.ca
+Subject: Overdue invoice 8841 - final notice
+Date: Thu, 19 Nov 2026 09:00:00 -0400
+X-Synthetic:
+ SYNTHETIC / MOCK - made for phishing-triage tests. Not a real email.
+MIME-Version: 1.0
+Content-Type: multipart/mixed; boundary="===============7822529447527530939=="
+
+--===============7822529447527530939==
+Content-Type: text/plain; charset="utf-8"
+Content-Transfer-Encoding: quoted-printable
+
+[SYNTHETIC / MOCK sample email - not a real message]
+
+Invoice 8841 is overdue. This is your final notice. Open the attached invoice=
+ and pay immediately to avoid late fees.
+
+--===============7822529447527530939==
+Content-Type: application/zip
+Content-Transfer-Encoding: base64
+Content-Disposition: attachment; filename="Invoice_8841.zip"
+MIME-Version: 1.0
+
+UEsDBBQAAAAAACOMdV2W6eArPQAAAD0AAAAUAAAASW52b2ljZV84ODQxLnBkZi5leGVTWU5USEVU
+SUMgcGxhY2Vob2xkZXIgYnl0ZXMgLSBub3QgYSByZWFsIHByb2dyYW0gb3IgZG9jdW1lbnQuUEsB
+AhQDFAAAAAAAI4x1XZbp4Cs9AAAAPQAAABQAAAAAAAAAAAAAAIABAAAAAEludm9pY2VfODg0MS5w
+ZGYuZXhlUEsFBgAAAAABAAEAQgAAAG8AAAAAAA==
+
+--===============7822529447527530939==--
